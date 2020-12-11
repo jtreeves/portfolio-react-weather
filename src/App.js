@@ -4,6 +4,8 @@ import Home from './components/Home'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import ProjectDetails from './components/ProjectDetails'
+import Weather from './components/Weather'
+import WeatherResult from './components/WeatherResult'
 import Navigation from './components/Navigation'
 
 import './App.css'
