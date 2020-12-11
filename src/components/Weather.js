@@ -22,7 +22,12 @@ function Weather() {
 
     return(
         <div>
-            Weather
+            <form onSubmit={handleSubmit}>
+                <h1>Find Weather Results</h1>
+                <label htmlFor='zip'>Zipcode: </label>
+                <input name='zip' id='zip' type='text' onChange={event => setZip(event.target.value)} />
+                <input type='submit' value='Find Weather' />
+            </form>
         </div>
     )
 }
